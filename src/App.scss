@@ -1,0 +1,94 @@
+body {
+    background-color: #f6f8fa !important;
+
+    .navbar {
+        background-color: #052849;
+    }
+
+    .app {
+        margin: 1% 0;
+    }
+
+    .no-padding {
+        padding: 0;
+        margin-top: 40px;
+    }
+
+    .full-height {
+        height: 97%;
+    }
+
+    .long-card {
+        margin-top: 40px;
+        height: 100%;
+        text-align: center;
+
+        .card-img-top {
+            width: 75%;
+            padding: 5%;
+            margin: auto;
+        }
+
+        .card-subtitle {
+            color: gray;
+            font-weight: lighter;
+            padding: 5%;
+        }
+
+        .card-body {
+            padding: 0;
+        }
+
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 2%;
+            border-top: 1px solid lightgray;
+            text-align: left;
+
+            .tag {
+                border: 1px solid lightgray;
+                padding: 2% 4%;
+                margin: 2%;
+                border-radius: 10%;
+            }
+        }
+    }
+
+    .graph {
+        padding: 2% 0;
+    }
+
+    .table {
+        margin: 0;
+
+        .thead {
+            border-bottom: 1px solid lightgray;
+            .th {
+                padding: 1%;
+
+                div > button {
+                    justify-content: center;
+                }
+            }
+        }
+
+        & > :not(:first-child) {
+            border-top: 0;
+        }
+
+        .tbody {
+            max-height: 400px;
+
+            .tr.tr-body {
+                color: gray;
+                border-bottom: 1px solid lightgray;
+
+                .td {
+                    padding: 1%;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
